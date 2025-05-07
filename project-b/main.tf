@@ -1,6 +1,6 @@
 # Dummy resource for testing
 resource "null_resource" "dummy" {
   provisioner "local-exec" {
-    command = "echo Hello fromddd Addtlantis11112!"
+    command = "echo Hello fromddd Addtlantis11112! b b b b b "
   }
 }
