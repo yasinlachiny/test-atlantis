@@ -1,0 +1,13 @@
+version: 3
+projects:
+  - name: project-a
+    dir: project-a
+    autoplan:
+      when_modified: ["*.tf"]
+      enabled: true
+
+  - name: project-b
+    dir: project-b
+    autoplan:
+      when_modified: ["*.tf"]
+      enabled: true
